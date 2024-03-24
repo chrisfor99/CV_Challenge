@@ -11,7 +11,7 @@ from scipy.interpolate import  interp1d
 from scipy.signal import savgol_filter
 
 def create_run_directory(project_name):
-    base_dir = os.path.join('trainings', project_name)
+    base_dir = os.path.join('train_logs', project_name)
     os.makedirs(base_dir, exist_ok=True)  # Create project directory if it doesn't exist
     run_dirs = glob.glob(os.path.join(base_dir, 'runs*'))  # Find all existing run directories
     next_run_number = len(run_dirs)  # Determine the next run number

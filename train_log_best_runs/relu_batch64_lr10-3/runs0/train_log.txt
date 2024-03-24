@@ -1,0 +1,91 @@
+########## Start Training ##############
+
+18 batches used for training
+5 batches used for validation
+
+
+Epoch 1/100
+18/18 [==============================] - ETA: 0s - loss: 1.6129 - accuracy: 0.3884
+c:\Users\chris\anaconda3\envs\cv_challenge\lib\site-packages\keras\src\engine\training.py:3000: UserWarning: You are saving your model as an HDF5 file via `model.save()`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')`.
+  saving_api.save_model(
+18/18 [==============================] - 74s 4s/step - loss: 1.6129 - accuracy: 0.3884 - val_loss: 1.3295 - val_accuracy: 0.7431 - lr: 0.0010
+Epoch 2/100
+18/18 [==============================] - 92s 5s/step - loss: 1.2381 - accuracy: 0.5413 - val_loss: 0.9701 - val_accuracy: 0.7639 - lr: 0.0010
+Epoch 3/100
+18/18 [==============================] - 127s 7s/step - loss: 1.0718 - accuracy: 0.5734 - val_loss: 0.7744 - val_accuracy: 0.8021 - lr: 0.0010
+Epoch 4/100
+18/18 [==============================] - 136s 8s/step - loss: 0.9638 - accuracy: 0.6099 - val_loss: 0.6497 - val_accuracy: 0.8715 - lr: 0.0010
+Epoch 5/100
+18/18 [==============================] - 136s 8s/step - loss: 0.8894 - accuracy: 0.6473 - val_loss: 0.5589 - val_accuracy: 0.9271 - lr: 0.0010
+Epoch 6/100
+18/18 [==============================] - 133s 7s/step - loss: 0.8042 - accuracy: 0.6968 - val_loss: 0.4762 - val_accuracy: 0.9514 - lr: 0.0010
+Epoch 7/100
+18/18 [==============================] - 117s 7s/step - loss: 0.7755 - accuracy: 0.7107 - val_loss: 0.4351 - val_accuracy: 0.9688 - lr: 0.0010
+Epoch 8/100
+18/18 [==============================] - 118s 7s/step - loss: 0.7143 - accuracy: 0.7142 - val_loss: 0.3704 - val_accuracy: 0.9618 - lr: 0.0010
+Epoch 9/100
+18/18 [==============================] - 119s 7s/step - loss: 0.6872 - accuracy: 0.7420 - val_loss: 0.3314 - val_accuracy: 0.9826 - lr: 0.0010
+Epoch 10/100
+18/18 [==============================] - 116s 7s/step - loss: 0.6464 - accuracy: 0.7585 - val_loss: 0.2972 - val_accuracy: 0.9826 - lr: 0.0010
+Epoch 11/100
+18/18 [==============================] - 118s 7s/step - loss: 0.6110 - accuracy: 0.7776 - val_loss: 0.2657 - val_accuracy: 0.9792 - lr: 0.0010
+Epoch 12/100
+18/18 [==============================] - 117s 7s/step - loss: 0.5904 - accuracy: 0.7976 - val_loss: 0.2366 - val_accuracy: 0.9826 - lr: 0.0010
+Epoch 13/100
+18/18 [==============================] - 113s 6s/step - loss: 0.5437 - accuracy: 0.8202 - val_loss: 0.2087 - val_accuracy: 0.9896 - lr: 0.0010
+Epoch 14/100
+18/18 [==============================] - 116s 7s/step - loss: 0.5684 - accuracy: 0.8132 - val_loss: 0.2012 - val_accuracy: 0.9931 - lr: 0.0010
+Epoch 15/100
+18/18 [==============================] - 113s 6s/step - loss: 0.5231 - accuracy: 0.8375 - val_loss: 0.1807 - val_accuracy: 0.9896 - lr: 0.0010
+Epoch 16/100
+18/18 [==============================] - 115s 6s/step - loss: 0.5279 - accuracy: 0.8323 - val_loss: 0.1697 - val_accuracy: 0.9931 - lr: 0.0010
+Epoch 17/100
+18/18 [==============================] - 116s 7s/step - loss: 0.4997 - accuracy: 0.8375 - val_loss: 0.1518 - val_accuracy: 0.9896 - lr: 0.0010
+Epoch 18/100
+18/18 [==============================] - 115s 6s/step - loss: 0.5187 - accuracy: 0.8280 - val_loss: 0.1457 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 19/100
+18/18 [==============================] - 115s 6s/step - loss: 0.4884 - accuracy: 0.8306 - val_loss: 0.1377 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 20/100
+18/18 [==============================] - 117s 7s/step - loss: 0.4335 - accuracy: 0.8653 - val_loss: 0.1173 - val_accuracy: 0.9931 - lr: 0.0010
+Epoch 21/100
+18/18 [==============================] - 127s 7s/step - loss: 0.4491 - accuracy: 0.8454 - val_loss: 0.1136 - val_accuracy: 0.9931 - lr: 0.0010
+Epoch 22/100
+18/18 [==============================] - 126s 7s/step - loss: 0.4645 - accuracy: 0.8332 - val_loss: 0.1084 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 23/100
+18/18 [==============================] - 122s 7s/step - loss: 0.4468 - accuracy: 0.8367 - val_loss: 0.1034 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 24/100
+18/18 [==============================] - 128s 7s/step - loss: 0.4659 - accuracy: 0.8210 - val_loss: 0.1000 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 25/100
+18/18 [==============================] - 133s 8s/step - loss: 0.4490 - accuracy: 0.8332 - val_loss: 0.0921 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 26/100
+18/18 [==============================] - 132s 7s/step - loss: 0.3960 - accuracy: 0.8497 - val_loss: 0.0873 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 27/100
+18/18 [==============================] - 130s 7s/step - loss: 0.4356 - accuracy: 0.8341 - val_loss: 0.0861 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 28/100
+18/18 [==============================] - 119s 7s/step - loss: 0.3831 - accuracy: 0.8558 - val_loss: 0.0770 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 29/100
+18/18 [==============================] - 129s 7s/step - loss: 0.3952 - accuracy: 0.8471 - val_loss: 0.0764 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 30/100
+18/18 [==============================] - 115s 6s/step - loss: 0.4178 - accuracy: 0.8367 - val_loss: 0.0731 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 31/100
+18/18 [==============================] - 119s 7s/step - loss: 0.3788 - accuracy: 0.8436 - val_loss: 0.0702 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 32/100
+18/18 [==============================] - ETA: 0s - loss: 0.4181 - accuracy: 0.8332
+Epoch 32: ReduceLROnPlateau reducing learning rate to 1.0000000474974513e-13.
+18/18 [==============================] - 116s 7s/step - loss: 0.4181 - accuracy: 0.8332 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 0.0010
+Epoch 33/100
+18/18 [==============================] - ETA: 0s - loss: 0.3669 - accuracy: 0.8558
+Epoch 33: ReduceLROnPlateau reducing learning rate to 1e-17.
+18/18 [==============================] - 102s 6s/step - loss: 0.3669 - accuracy: 0.8558 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 1.0000e-13
+Epoch 34/100
+18/18 [==============================] - 109s 6s/step - loss: 0.3839 - accuracy: 0.8497 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 1.0000e-17
+Epoch 35/100
+18/18 [==============================] - 108s 6s/step - loss: 0.4130 - accuracy: 0.8306 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 1.0000e-17
+Epoch 36/100
+18/18 [==============================] - 111s 6s/step - loss: 0.3571 - accuracy: 0.8566 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 1.0000e-17
+Epoch 37/100
+18/18 [==============================] - 99s 6s/step - loss: 0.4073 - accuracy: 0.8436 - val_loss: 0.0709 - val_accuracy: 0.9965 - lr: 1.0000e-17
+Epoch 37: early stopping
+
+
+######### Finished Training ############
